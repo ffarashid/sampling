@@ -40,30 +40,36 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+The purpose of this survey is to gather insights from current and recently departed employees in entry- and lower-level positions to identify key factors contributing to employee turnover. The goal is to use this feedback to recommend actionable changes to improve job satisfaction, retention, and overall workplace culture.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+Target Population: Current and recently departed employees who held entry- and lower-level positions within the company over the past 12 months.
+
+Sampling Frame: Company records of employees in entry- and lower-level roles, including active employees and those who left the company within the last year.
+
+Sampling Units: Individual employees from the sampling frame.
+
+Sampling Strategy: Stratified random sampling to ensure representation across departments and job roles, followed by simple random sampling within each stratum to select participants for the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied were/are you with your overall job experience at the company?
+2. What were the top three factors that influenced your decision to leave or consider leaving the company? 
+3. Do you feel you had a clear path for advancement within the company?
+4. Did you feel recognized and valued for your contributions?
+5. How well did your manager/supervisor support your professional growth?
+6. Would you recommend this company as a good place to work?
+7. Please share any additional feedback or suggestions that might help improve the employee experience.
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +77,42 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample Type & Target Population: A cross-sectional probability sample of individuals aged 15+ living in private households in Canada's ten provinces (excluding Yukon, Northwest Territories, Nunavut, and full-time institutional residents)
+
+Sample Size: Approximately 20,180 respondents participated in the 2018 cycle.
+
+Sampling Frame: An integrated frame combining landline and cellular phone numbers (from Census and administrative sources) with Statistics Canada's dwelling frame. Geographic stratification by province and Census Metropolitan Areas (e.g. Toronto, Calgary).
+
+Sampling Units: Sampling units are households, with one person per household selected via age-order method. A sub-sampling (rejective sampling) ensured all volunteers received the long interview; non-volunteers were randomly subsampled.
+
+Sampling Strategy: Stratified multi-stage probability sampling with oversampling of volunteers and regional stratification. One eligible household member randomly selected per household.
+
+Survey Mode(s): Mixed-mode: Computer- or interviewer-assisted phone interviews (CATI) and self-completed online (EQ). Introduced online mode in 2013.
+
+Timeline: Data collected between September 4 and December 28, 2018.
+
+Response Rate: Overall response rate approximately 52.8% in 2018 (down from 65.7% in 2012).
+
+Weights:Person-level base weight (WGHT_PER) for population estimates & Bootstrap weights for variance estimation.
+
+Cleaning & Imputation: Standard Statistics Canada procedures applied, including cleaning, edit checks, and imputation for missing data (details in User Guide).
+
+Sampling error: Quantified via bootstrap weights.
+
+Coverage error: Excludes institutionalized and territorial residents & households without telephone or mailing access underrepresented.
+
+Non-response bias: With 52.8% response rate, potential bias from non-respondents.
+
+Volunteer oversampling: Requests statistical adjustment to account for design.
+
+Geographic and demographic representativeness: Regional sample sizes sufficient for provincial estimates, but small minorities may be underrepresented.
+
+Link to documentation and any additional sources used:
+
+- https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+- https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm
+- https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm 
+- https://link.springer.com/article/10.17269/s41997-023-00762-9 
 ```
 
 ## Rubric
